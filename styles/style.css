@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100&family=Six+Caps&display=swap');
+
+html{
+  background-image: url(../images/art-background4.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1{
+  padding-top: 32px;
+  padding-left: 16px;
+  font-size: 50px;
+  font-family: "Six Caps", sans-serif;
+}
+
+.titulo > p{
+  padding-left: 16px;
+  padding-bottom: 32px;
+  font-family: sans-serif;
+}
+
+.titulo{
+  background-color: white;
+  margin-left: 112px;
+  margin-bottom: 96px;
+  width: 400px;
+}
+
+.sub{
+  background: rgb(255, 255, 255, 0.5);
+  margin-left: 112px;
+  width: 600px;
+  font-family: sans-serif;
+  display: flex;
+  align-items:  center;
+}
+
+.sub > h2{
+  padding-left: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 20px;
+}
+
+.informacion{
+  background: rgb(255, 255, 255, 0.3);
+  margin-left: 112px;
+  padding-bottom: 16px;
+  width: 600px;
+}
+
+.informacion > p{
+  padding-top: 26px;
+  padding-left: 16px;
+  padding-bottom: 10px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.fecha{
+  background: rgb(0, 0, 0, 0.4);
+  margin-left: 16px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.fecha > p{
+  color: white;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+
+.contacto{
+  background: rgb(255, 255, 255, 0.8);
+  margin-left: 112px;
+  width: 600px;
+}
+
+.contacto > p{
+  padding-left: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+a[href^="mailto"]{
+  background: url(../images/email.png) no-repeat 0 3px;
+  padding-left: 16px;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
